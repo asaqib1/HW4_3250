@@ -12,26 +12,28 @@ src/
 ├── test.py
 ├── README.md
 └── pyproject.toml
+```
 
--graphs_asaqib1/sp.py: Contains the implementation of Dijkstra’s shortest path algorithm. 
--graphs_asaqib1/heapq.py: Helper function for priority queue operations
--test.py: Script to test the library
--pyproject.toml: Packaging configuration
--README.md: This file which contains basic information about this library
+*graphs_asaqib1/sp.py: Contains the implementation of Dijkstra’s shortest path algorithm  
+*graphs_asaqib1/heapq.py: Helper function for priority queue operations  
+*test.py: Script to test the library  
+*pyproject.toml: Packaging configuration  
+*README.md: This file which contains basic information about this library  
 
-##Installation: 
+## Installation: 
 You can install the package using pip: 
 ```text
-pip install asaqib1==0.0.3
+pip install asaqib1==0.0.6
+```
 
-Features: 
--Finds the shortest paths from a source vertex to all other vertices in a weighted graph
--Supports extension with other graph algorithms
--Uses a min-heap to efficiently select the next vertex with the smallest known distance
+## Features: 
+*Finds the shortest paths from a source vertex to all other vertices in a weighted graph  
+*Supports extension with other graph algorithms  
+*Uses a min-heap to efficiently select the next vertex with the smallest known distance  
 
-Example: 
+## Example: 
 For a graph with 9 vertices, the shortest path from vertex 0 to vertex 1 may have a cost of 4, and to vertex 8 may have a cost of 14.
 
-```text
-Author: Alizah Saqib
-GitHub: https://github.com/asaqib1
+## Author Information
+*Author: Alizah Saqib  
+*GitHub: https://github.com/asaqib1  
