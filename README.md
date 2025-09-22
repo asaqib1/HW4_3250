@@ -20,7 +20,7 @@ src
 
 Installation: 
 You can install the package using pip: 
-pip install asaqib1==0.0.2
+pip install asaqib1==0.0.3
 
 Features: 
 '*'Finds the shortest paths from a source vertex to all other vertices in a weighted graph
