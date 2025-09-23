@@ -23,7 +23,7 @@ src/
 ## Installation: 
 You can install the package using pip: 
 ```text
-pip install asaqib1==0.0.6
+pip install asaqib1==1.0.0
 ```
 
 ## Features: 
