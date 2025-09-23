@@ -1,5 +1,6 @@
 from graphs_asaqib1 import sp
 import sys
+from graphs_asaqib1 import bfs
 
 if __name__ == '__main__':
     
@@ -26,3 +27,7 @@ if __name__ == '__main__':
     print(dist)
     for d in path: 
         print(f'spf to {d}: {path[d]}')
+
+    # bonus algorithm check
+    print("\nBFS order starting from 0:")
+    print(bfs.bfs(graph, 0))
